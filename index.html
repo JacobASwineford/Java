@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--
+Web programming:
+    Three languages
+    HTML - hyperText Markup Language: a language that is used to structure
+           the content of web pages. All browsers understand HTML.
+           A browser is a software that interprets the HTML and
+           displays the contents
+    HTML consists of tage , most if which  go by pairs, The starting tag has
+         a command within angle bracket and the ending one is different by a forward slash
+         in front of the command. Between the starting and the ending tag is the content
+         to be displayed.
+    HTML is case insensitive so you may type a command in any case
+         The newest version is HTML5 which requires a declaration before the
+         document starts <!doctype html>
+    An HTML document is divided into two parts:
+         head part: it is within <head>...</head>
+                    this part contains the information that is for the
+                    search engine spiders/bots.
+         body part: it is within the tags <body>...</body>, and contains the
+                    information to be displayed
+
+         A starting tag may have the attributes in the syntax
+         name = value following the command
+
+         Colors: color names
+                 color code #followed by 6 hex decimals
+
+         <STRONG>...</STRONG>
+         <B>...</B>
+         <I>...</I>
+         <CENTER>...</CENTER>
+            Headings: <H1>...</H1>
+                      ...
+                      <H6>...</H6>
+         <P>...</P>
+         <DIV>...</DIV>
+         <SPAN>...</SPAN>
+         <BR/> does not go by a pair so it is an empty tag
+
+         Anchor tags: <a href="address"> to be displayed </a>
+            1). to link another page
+                    the value value of href should be the address of the page
+            2). to link an email
+                    the value of href should be mailto: followed by an email address
+
+    CSS - cascading style sheet: a language that is used to style a wabpage.
+    
+    A third language such as javascript, java, php... that makes the webpage dynamic
+
+    The Image tag:
+        <img src="pathoftheImage" alt = "What to display if the image is not found"/>
+
+    Lists:
+        OrderedList:
+            <OL>
+                <LI> item number one </LI>
+                 <LI> item number two </LI>
+                  <LI> item number three </LI>
+            </OL>
+        UnorderedList:
+            <UL>
+                <LI> item number one </LI>
+                 <LI> item number two </LI>
+                  <LI> item number three </LI>
+            </UL>\
+        DefinitionList:
+            <DL>
+                <DT>Youmin Lu</DT>
+                <DD>A mean professor</DD>
+                <DT>Brandon</DT>
+                <DD>The youngest student in my class</DD>
+                <LI> item number one </LI>
+                 <LI> item number two </LI>
+                  <LI> item number three </LI>
+            </DL>\
+
+    tags can be nested
+    
+    Tables:
+        <table border='value' width='value' height='value'>
+            <tr>
+                <td>(1,1)</td> <td>(1,2)</td> <td>(1,3)</td>
+            </tr>
+            <tr>
+                <td>(2,1)</td> <td>(2,2)</td> <td>(2,3)</td>
+            </tr>
+        </table>
+
+        you may marge multiple cells in one row by using the colspac in a td
+        tag or in one column by suing rowspan in a td tag
+
+        To interact with viewers we need a form:
+            it takes data from the viewers and sends it to the server to e processed.
+        A form tag may contain two attributes 
+            action  its value is the address of the server which you want to send
+                    the data in this form to
+            method: its value may be wither Get or POST. The GET value will
+                    send the data of this form to the server by appending 
+                    it to the url. The POST method will send the data of this form
+                    to the server by packaging it in a file
+        A form contains control elements that conflict data from the viewers
+        and send the data to the server.
+
+        Control elements:
+        INPUT:
+            attributes: type, name, value, size
+                        values for type: 
+                            text
+                            password
+                            checkbox
+                            radio
+                            submit
+                            reset
+                          Value of name is the identifier of this INPUT
+                          Value of the value attribute is the default value
+                          of this input
+                          The value of the name attribute is the identifier of
+                          this input The submit makes a button that sends the
+                          data to the server of the address given to the action attribute
+                          The reset makes a button that resets all the controls in
+                          this form back to their default values
+                          <INPUT type='submit' value='Submit'/>
+                          <INPUT type='submit' value='Submit'/>
+        SELECT-- a dropdown list
+                <SELECT name="Aname" size="number">
+                    <OPTION>"1"</OPTION>
+                    <OPTION>"2"</OPTION>
+                    <OPTION>"3"</OPTION>
+                    <OPTION>"4"</OPTION>
+                    <OPTION>"5"</OPTION>
+                    <OPTION>"6"</OPTION>
+                </SELECT>    
+        TEXTAREA -- multi line text control
+
+CSS-- the acronym of Cascading Style Sheet that is a language used to style
+a web page
+    CSS statement syntax: propertyName:value;
+     Property Name      values
+      font-size          10px 10cm 10in 10em
+      color              red color code
+      font-family        sans-serif, monspaced
+
+      <P...>
+
+      Three levels of CSS:
+      1). in-line CSS: CSS statements are placed as the value of the style
+                       attribute of a tag. This one styles the tag content
+                       and overrides all other CSS statements
+      2). embedded CSS: CSS selectors are placed as the content of the style
+                        tag in the head area
+                        <style type="text/css">
+                            selectors
+                        </style>
+      3). external CSS: selectors are placed in an external file saved with
+                        with .css. The external file may be used by any
+                        HTML document with the link tag:
+                        <link rel="stylesheet" type="text/css" href="filePath.css">
+
+      Three major kinds of selectors
+        1). HTML selector:
+                htmlTag{
+                            css statements
+                        }
+                The statements will be applied to all tags
+                in this page with the tag name
+        2). class selectors:
+                .className{
+                    css statements
+                }
+                The css statements in a class selector will only be applied
+                to the tags whose class attribute takes this class name as
+                it's value
+        3).  ID selector:
+             #idName{
+                css statements
+             }
+             It will style the tag whose it attribute has the Idname as its ID value
+
+    Servlet:
+        A Servlet is a class extending the Servlet class in the library.
+        It takes data from a form, processes it and sends the results back 
+        as a webpage
+
+        A servlet can be activated by a form or a url.
+        Methods:
+            void doGet(HttpServletRequest request, HttpServletResponse response)
+            void doPost(HttpServletRequest request, HttpServletResponse response)
+            When a Servlet is activated, a HttpServletRequest object and
+            HttpServletResponse object are auotmatically supplied to these
+            two methods and one of them is automatically called/activated
+            according to the value of the attribute in the form tag.
+
+        Methods in HttpServletRequest class:
+            String getParameter(String controlName)
+            String[] getParameterValues(String controlName)
+            RequestDispatcher getRequestDispatcher(String fileName)
+            Cookie[] getCookies()-- returns an array that contains the
+                                    Cookies in the client machine within         
+                                    this session
+            HttpSession getSession()--returns an HttpSession object. If there is
+                                      no session object, a new one is created.
+                                      If there is one, it returns the existing one.
+
+        Methods in HttpServletResponse class:
+            PrintWriter getWriter()-returns a PrintWriter object that can
+                be used to send a web page back to the viewer
+        
+        There are two important methods that need to be overridden:
+            void doGet()
+            void doPost()
+            void addCookie(Cookie cookie)
+
+        How to forward or include another page? 
+         use the RequestDispatcher class:
+            void forward(HttpServletRequest request, HttpServletResponse response)
+                          --forward this current page to the page wrapped in
+                            this RequestDispatcher
+            void include(HttpServletRequest request, HttpServletResponse response)
+                          --insert the page wrapped in this RequestDispatcher
+                            object into the current page
+
+Session Tracking:
+ HTTP is stateless: whne you move from one page to another page, the data
+ from the first page is lost. If you minimize a page and go to another page,
+ the data is lost when you get back
+
+ 1) Session tracking using Cookies
+     A cookie is a small text file in the client's machine
+    Cookie class:
+        constructor: Cookie(String name, String value)
+        methods: String getName()
+                 String getValue()
+ 2) Session tracking using Java Session
+    HttpSession class:
+        method:
+            void setAttribute(String name, Object object)--binds this name with
+                 the object.
+            Object getAttribute(String name)
+     
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            div{
+                color:blue;
+                font-size: 3em;
+            }
+            .testClass{
+                color:pink;
+                font-size:2cm;
+            }
+        </style>
+    </head>
+    <body bgColor = "white">
+        
+    <strong><div>Order Your Pizza plz say something</div></strong>
+        <br/>
+        This is my first page. <span style="background-color:red; color:blue;"> All is well i hope. </span>
+        
+        <BR/>
+        <A href="http://www.google/com">Click to go to GOOGLE</A>
+        <BR/>
+        <A href="http://www.google/com">Click to go to GOOGLE</A> 
+        <BR/><STRONG>OrderedList:</STRONG>
+            <OL>
+                <LI> item number one </LI>
+                 <LI> item number two </LI>
+                  <LI> item number three </LI>
+            </OL>
+        UnorderedList:
+            <UL>
+                <LI> item number one </LI>
+                 <LI> item number two </LI>
+                  <LI> item number three </LI>
+            </UL>
+        DefinitionList:
+            <DL>
+                <DT>Youmin Lu</DT>
+                <DD>A mean professor</DD>
+                <DT>Brandon</DT>
+                <DD>The youngest student in my class</DD>
+            </DL>
+
+            <table border='20' width='200'>
+            <tr>
+                <td>(1,1)</td> <td>(1,2)</td> <td>(1,3)</td>
+            </tr>
+            <tr>
+                <td>(2,1)</td> <td>(2,2)</td> <td>(2,3)</td>
+            </tr>
+            </table>     
+    </body>
+</html>

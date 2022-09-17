@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--This is my first 'real' HTML file. I will write all my notes and-->
+<!--provide a cheat-sheet for tags.-->
+
+<!--tags:-->
+<!--html, /html - defines the document as a webpage. Considered essential.-->
+
+<!--head, /head - contains information about the html document, including-->
+              <!--the stylesheet to use and meta tags. Considered essential.-->
+
+<!--title, /title - defines the title that appears in the title bar. considered-->
+                <!--essential, must be defined in the head tag.-->
+
+<!--body, /body - contain all other information and tags defining what actually-->
+              <!--shows up on the page. Considered essential. -->
+
+<!--Header: h?, /h? - 6 levels of header available, down to h6 for smallest -->
+<!--Bold: b, /b - Makes the text in between these tags bold  -->
+<!--Italic: i, /i - Makes the text in between these tags italic -->
+<!--Underlined: u, /u - Makes the text in between these tags underlined.
+                       Links are underlined by default. -->
+<!--Strike-out: [strike, /strike], [s, /s] - strikes out a line of text by putting
+                                             a line through it. -->
+<!--Preformatted Text: pre, /pre - appears the same in both the text editor and
+                                   and the website. also preserves line breaks. -->
+<!--Source Code: code, /code - text is displayed like source code, with a fixed
+                               width length. -->
+<!--*Typewriter Text: tt, /tt - appears as if the text was typed by a typewriter -->
+<!--Block Quote: blockquote, /blockquote - Defines a long quotation, blocky I guess -->
+<!--Small: small, /small - renders text slightly smaller than the text around it.  -->
+<!--*Font Colour: font color = "#??????", /font - changes the color of a body of text -->
+<!--*Font size Change: font size = "+-*/", /font - changes the font size with respect to
+                                                  the font size pre-ceding it. -->
+<!--*Change Font face: font face = "?", /font - changes font of the current body of text. -->
+<!--*Centre: center, /center - Centers all things between the tags (middle of page) -->
+<!--Emphasis: em, /em - Used to emphasize text. -->
+<!--Strong Emphasis: strong, /strong - Used to emphasize text more. -->
+<!--Division: div, /div - used to group up elements. Commonly used with CSS by setting the
+                          class attribute-->
+<!--Paragraphs: p, /p - Divides things into paragraphs? These paragraphs will stay grouped/wrapped
+                        together despite the size of the page. a proceeding paragraph is granted
+                        white space -->
+<!--Links: a, /a - Links can be defined with this tag, along with the attribute href -->
+<!--Images: img - Images are defined with this tag, along with the attributes src, alt, width, height -->
+<!--Horizontal rule: hr - creates a horizontal rule wherever the tag is used. A HR is a line that separates
+                          Different sections of the page horizontally-->
+<!--Highlight: mark, /mark - highlights the text between <mark> tags -->
+<!--Label: label, /label (for = "name") - use to automatically label different HTML elements that where attribute id = "name"
+
+<!--Forms: form, /form - container for form elements -->
+<!--Forms (input, type = "text"): input, /input - displays a single line text input field -->
+<!--Forms (input, type = "radio"): displays a radio button  -->
+<!--Forms (input, type = "checkbox"): displays a checkbox -->
+<!--Forms (input, type = "submit"): displays a submit button
+<!--Forms (input, type = "button"): displays a clickable button
+
+<!--Style Attribute: <tagname style = "property:value"> -
+    Ex: <tagname style = "background-color:color);">
+        <tagname style = "color:color;">
+        <tagname style = "font-family:font;">
+        <tagname style = "font-size:per%;">
+        <tagname style = "text-align:center;">
+
+CSS:
+
+closed with style, /style, in head
+
+width: percent%
+padding: 1px 1px;
+margin: 1px 0;
+box-sizing: border-box;
+border: 1px type color;
+border-bottom: 1px color; <- use with border: none;
+border-radius: 1px; <- fillets edges of a border
+background-color: #11111;
+background-image: url('url');
+background-position: 1px 1px;
+background-repeat: no-repeat; ***
+background-size: value **
+padding-left: 1px;
+color: color; <- color of text
+font-size: 1px;
+transition: property?** time animation-type <- used with focus
+
+
+Examples:
+
+input {
+    width: 100%
+}
+
+input[type=text] {
+}
+
+input[type=text]:focus { <- while this element is selected
+}
+
+textarea {
+
+}
+
+this will apply to all <input> elements. This can be further specified
+by square brackets [], like input[type=text] will only apply to text fields
+
+
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza for Everybody!</title>
+    <style>
+        input[type=text] {
+            border: 2px solid #994e7a;
+            width: 30%;
+        }
+        .container {
+            border-radius: 10px;
+            background-color: #9ea39d;
+            background-image: url('B_and_O_Railroad.jpg');
+            background-repeat: no-repeat;
+            width: 36%;
+            color: white;
+        }
+        input[type=submit]:hover {
+            transition-duration: 0.4s;
+            cursor: pointer;
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <center><h1>Hello! Order Some Pizza Now!</h1>
+    <div class="container">
+        <form action="/jsp.jsp" method="post">
+            <label for="fname"><b>First Name</b></label><br>
+            <input type="text" title="First Name!" id="fname" name="fname" placeholder="First Name..."><br>
+            <label for="lname"><b>Last Name</b></label><br>
+            <input type="text" title="Last Name!" id="lname" name="lname" placeholder="Last Name..."><br>
+            <label for="address"><b>Address</b></label><br>
+            <input type="text" title="Address!" id="address" name="address" placeholder="Address..."><br>
+            <b>What Kinda Pizza Ya Want?</b><br>
+            <input type="radio" id="square" value="Square" name = "pt">Square
+            <input type="radio" id="circle" value="Circle" name = "pt">Circle<br>
+            <input type="submit" value = "Order!">
+        </form>
+    </div>
+    </center>
+</body>
+
+"AddType application/x-httpd-php .html"
+<!--
+<body>
+    <center>Hello There! This is a website!<br>
+    <strong>Here we have a picture of B and O Railroad from monopoly!</strong><br>
+    <img src = "B_and_O_Railroad.jpg" title = "The chad Railroad" width = "400" height = "400"><br></center>
+    <h1>This is Header 1, followed by a horizontal rule</h1><hr>
+    <p>Hello, this is a paragraph.</p>
+    <form>
+        <label for="fname"></label>
+        <label for="lname"></label>
+        First Name:<br>
+        <input type="text" title = "First Name" id = "fname" placeholder="First Name..."><br>
+        Last Name:<br>
+        <input type="text" title = "Last Name" id = "lname" placeholder="Last Name..."><br><br>
+        <select name = "foods" id = "foods">
+            <option value = "Mango">Mango</option>
+            <option value = "Peach">Peach</option>
+        </select><hr>
+        <input type = "submit" value = "Submit">
+    </form>
+
+</body>
+</html>

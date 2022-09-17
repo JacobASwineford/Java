@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+ collects information about the mortgage and sends it to a jsp
+ page to be processed for finding the monthly payment
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><strong>Enter the information about your mortgage</strong></div>
+        <form action="mortgageCalculator2.jsp" method="post">
+            <strong>Enter your passcode</strong>
+            <input type="text" name="passcode" size="8"/></br>
+            <strong>Principal:</strong>
+            <input type="text" name="principal" value="200000" size="7">
+            <strong>Annual Rate</strong>
+            <input type="text" name="years" value="5.25" size="7">
+            <strong>Life in years:</strong>
+            <input type="text" name="life" value="15" size="2"> years
+            <br/><input type="submit" value="Calculate"/>
+                 <input type="reset" value="Reset"/>
+        </form>
+    </body>
+</html>
