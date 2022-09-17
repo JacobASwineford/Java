@@ -45,6 +45,7 @@ public class Deck {
             cards.remove(cards.size() - 1);
             return ret;
         }
+        int i = 0;
         return -1;
     }
 
