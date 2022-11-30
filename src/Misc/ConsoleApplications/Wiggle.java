@@ -27,7 +27,7 @@ public class Wiggle {
 
             if (!reverse) {
                 maxSpaces++;
-            } else if (reverse) {
+            } else {
                 maxSpaces--;
             }
 

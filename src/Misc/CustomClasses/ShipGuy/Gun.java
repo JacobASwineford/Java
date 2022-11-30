@@ -9,6 +9,8 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
 
+import java.util.LinkedList;
+
 /**
  * @author Jacob Swineford
  */
@@ -40,6 +42,7 @@ class Gun extends Pane {
         Rectangle barrel = new Rectangle(BARREL_WIDTH, barrelHeight, Color.BLACK);
         barrel.setX(BODY_WIDTH);
         barrel.setY(BODY_HEIGHT / 2 - barrelHeight / 2);
+
 
         Circle chamber = new Circle(5, Color.GREEN);
         chamberX = (BODY_WIDTH + BARREL_WIDTH) / 2;
