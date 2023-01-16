@@ -14,7 +14,6 @@ public class Wiggle {
         String s = in.nextLine();
         System.out.print("Enter the length: ");
         int l = in.nextInt();
-
         int maxSpaces = 0;
         boolean reverse = false;
         for (int i = 0; i < l; i++) {

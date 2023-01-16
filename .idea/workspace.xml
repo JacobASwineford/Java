@@ -3,14 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ff55da02-107c-49dc-a8c1-8ed0eaec6e33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Wiggle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Wiggle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/bins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/bins.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/ShipGuy/Gun$Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/ShipGuy/Gun$Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/ShipGuy/Gun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/ShipGuy/Gun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/PermutationMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/PermutationMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/CardParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/CardParser.java___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$Tower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$Tower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTileGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTileGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Wiggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Wiggle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/bins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/bins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/ShipGuy/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/CustomClasses/ShipGuy/Gun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Cards/CardParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Cards/CardParser.java___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Cards/Deck.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +28,8 @@
         <option value="Python Script" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +52,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Misc/ConsoleApplications/DataBaseParser.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/ConsoleApplications/Game/tester.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/ConsoleApplications/Wiggle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/GatlingGun/Gun.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/Mastermind/Mastermind.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/SpinLine/GUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/SpinLine/SpinLine.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/TowerDefense/E.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/TowerDefense/test.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -254,12 +271,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Code/Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Code/Java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProjects\lib" />
+      <recent name="C:\JavaProjects\src\Misc\Server\EchoLock" />
+      <recent name="C:\JavaProjects\src\Misc\Server" />
+      <recent name="C:\JavaProjects\src\Misc" />
+      <recent name="C:\JavaProjects\src\Misc\HTML" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JavaProjects\src\Misc" />
       <recent name="C:\JavaProjects\src\mImages" />
@@ -278,21 +303,14 @@
       <recent name="Misc" />
       <recent name="Misc.CustomClasses.Cipher" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\JavaProjects\lib" />
-      <recent name="C:\JavaProjects\src\Misc\Server\EchoLock" />
-      <recent name="C:\JavaProjects\src\Misc\Server" />
-      <recent name="C:\JavaProjects\src\Misc" />
-      <recent name="C:\JavaProjects\src\Misc\HTML" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.E (3)">
-    <configuration name="E (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.TowerDefense.E" />
+  <component name="RunManager" selected="Application.ThatsAllFolks">
+    <configuration name="CatPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.Java1.SwinefordHW2.CatPicture" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.TowerDefense.*" />
+          <option name="PATTERN" value="Homework.Java1.SwinefordHW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,12 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.TowerDefense.E" />
+    <configuration name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.Cards.Deck" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.TowerDefense.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.Cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +331,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.TowerDefense.E" />
+    <configuration name="Mastermind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.Mastermind.Mastermind" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.TowerDefense.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.Mastermind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +344,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.TowerDefense.E" />
+    <configuration name="ThatsAllFolks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.Java1.SwinefordHW2.ThatsAllFolks" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.TowerDefense.*" />
+          <option name="PATTERN" value="Homework.Java1.SwinefordHW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.TowerDefense.E" />
+    <configuration name="Wiggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Wiggle" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.TowerDefense.*" />
+          <option name="PATTERN" value="Misc.ConsoleApplications.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E" />
-      <item itemvalue="Application.E (1)" />
-      <item itemvalue="Application.E (2)" />
-      <item itemvalue="Application.E (3)" />
-      <item itemvalue="Application.E (5)" />
+      <item itemvalue="Application.CatPicture" />
+      <item itemvalue="Application.ThatsAllFolks" />
+      <item itemvalue="Application.Wiggle" />
+      <item itemvalue="Application.Deck" />
+      <item itemvalue="Application.Mastermind" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E (3)" />
-        <item itemvalue="Application.E" />
-        <item itemvalue="Application.E (2)" />
-        <item itemvalue="Application.E (1)" />
-        <item itemvalue="Application.E (5)" />
+        <item itemvalue="Application.ThatsAllFolks" />
+        <item itemvalue="Application.CatPicture" />
+        <item itemvalue="Application.Wiggle" />
+        <item itemvalue="Application.Deck" />
+        <item itemvalue="Application.Mastermind" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +486,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

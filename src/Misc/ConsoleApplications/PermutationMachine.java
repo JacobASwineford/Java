@@ -141,18 +141,22 @@ public class PermutationMachine<T> {
     }
 
     public static void main(String[] args) {
-        String str = "ask";
-        Character[] arr = from(str);
-        PermutationMachine<Character> pm = new PermutationMachine<>(arr);
-        pm.permuteStore();
-        LinkedList<LinkedList<Character>> re = pm.getPermutations();
-        for (LinkedList<Character> g : re) {
-            for (Character c : g) {
-                System.out.print(c + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        pm.permute();
+//        String str = "ask";
+//        Character[] arr = from(str);
+//        PermutationMachine<Character> pm = new PermutationMachine<>(arr);
+//        pm.permuteStore();
+//        LinkedList<LinkedList<Character>> re = pm.getPermutations();
+//        for (LinkedList<Character> g : re) {
+//            for (Character c : g) {
+//                System.out.print(c + " ");
+//            }
+//            System.out.println();
+//        }
+//        System.out.println();
+//        pm.permute();
+        int i = 0;
+        while (i < 1000000000)
+            i++;
+        System.out.println("done");
     }
 }
