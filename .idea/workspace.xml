@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ff55da02-107c-49dc-a8c1-8ed0eaec6e33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/PermutationMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/PermutationMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/CardParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/CardParser.java___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Cards/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$Tower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$Tower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTileGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/TowerDefense/E$TowerTileGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Wiggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Wiggle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Cards/CardParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Cards/CardParser.java___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Cards/Deck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Connect4/GUI$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Connect4/GUI$Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,12 +261,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Code/Java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Code/Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaProjects\lib" />
@@ -304,13 +294,13 @@
       <recent name="Misc.CustomClasses.Cipher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThatsAllFolks">
-    <configuration name="CatPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.Java1.SwinefordHW2.CatPicture" />
+  <component name="RunManager" selected="Application.ArrayListB">
+    <configuration name="ArrayListB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.ArrayListB" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.Java1.SwinefordHW2.*" />
+          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.Cards.Deck" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.BinaryTree" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.Cards.*" />
+          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mastermind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.Mastermind.Mastermind" />
+    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.Dictionary" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.Mastermind.*" />
+          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThatsAllFolks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.Java1.SwinefordHW2.ThatsAllFolks" />
+    <configuration name="GUI (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.Connect4.GUI" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.Java1.SwinefordHW2.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.Connect4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wiggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Wiggle" />
+    <configuration name="LinkedListB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.LinkedListB" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.*" />
+          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,19 +361,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CatPicture" />
-      <item itemvalue="Application.ThatsAllFolks" />
-      <item itemvalue="Application.Wiggle" />
-      <item itemvalue="Application.Deck" />
-      <item itemvalue="Application.Mastermind" />
+      <item itemvalue="Application.ArrayListB" />
+      <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.Dictionary" />
+      <item itemvalue="Application.LinkedListB" />
+      <item itemvalue="Application.GUI (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThatsAllFolks" />
-        <item itemvalue="Application.CatPicture" />
-        <item itemvalue="Application.Wiggle" />
-        <item itemvalue="Application.Deck" />
-        <item itemvalue="Application.Mastermind" />
+        <item itemvalue="Application.ArrayListB" />
+        <item itemvalue="Application.LinkedListB" />
+        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.GUI (4)" />
       </list>
     </recent_temporary>
   </component>

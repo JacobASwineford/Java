@@ -77,7 +77,7 @@ public class GUI extends Application {
 
     class Column extends Pane {
 
-        private Circle[] chipsCol;
+        private final Circle[] chipsCol;
 
         Column(int xPos, double width, double height, double chipRadius, int numChips) {
             Rectangle bg = new Rectangle(width, height, Color.GRAY);
@@ -106,14 +106,14 @@ public class GUI extends Application {
                 int y = c4.drop(xPos, turn);
                 if (y != -1) {
                     if (turn == 2) {
-                        chipsCol[y].setFill(Color.BLUE);
+                        chipsCol[y].setFill(Color.TEAL);
                     } else {
-                        chipsCol[y].setFill(Color.GREEN);
+                        chipsCol[y].setFill(Color.PINK);
                     }
                     LinkedList<int[]> m = c4.match(xPos, y, turn);
                     if (m != null) {
                         for (int[] pos : m) {
-                            chips[pos[1]][pos[0]].setStroke(Color.YELLOW);
+                            chips[pos[1]][pos[0]].setStroke(Color.BLUE);
                         }
                     }
                     turn *= -1;
@@ -121,14 +121,14 @@ public class GUI extends Application {
             });
             this.setOnMouseEntered(event -> {
                 for (Circle chip : chipsCol) {
-                    if (chip.getStroke() != Color.YELLOW)
+                    if (chip.getStroke() != Color.BLUE)
                         chip.setStroke(Color.DARKGREEN);
                 }
 
             });
             this.setOnMouseExited(event -> {
                 for (Circle chip : chipsCol)
-                    if (chip.getStroke() != Color.YELLOW)
+                    if (chip.getStroke() != Color.BLUE)
                         chip.setStroke(Color.BLACK);
             });
         }
