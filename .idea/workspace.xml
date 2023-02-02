@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ff55da02-107c-49dc-a8c1-8ed0eaec6e33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Connect4/GUI$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/CustomClasses/Connect4/GUI$Column.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/CustomClasses/Connect4/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/ArrayListB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/ArrayListB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Structures/ArrayListB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Structures/ArrayListB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,22 +294,9 @@
       <recent name="Misc.CustomClasses.Cipher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListB">
+  <component name="RunManager" selected="Application.StackB (1)">
     <configuration name="ArrayListB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.ArrayListB" />
-      <module name="JavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.BinaryTree" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -334,19 +321,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUI (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.Connect4.GUI" />
-      <module name="JavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.CustomClasses.Connect4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.LinkedListB" />
       <module name="JavaProjects" />
@@ -360,20 +334,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.StackB" />
+      <module name="JavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.StackB" />
+      <module name="JavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ArrayListB" />
-      <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.Dictionary" />
       <item itemvalue="Application.LinkedListB" />
-      <item itemvalue="Application.GUI (4)" />
+      <item itemvalue="Application.StackB" />
+      <item itemvalue="Application.StackB (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackB (1)" />
+        <item itemvalue="Application.StackB" />
         <item itemvalue="Application.ArrayListB" />
         <item itemvalue="Application.LinkedListB" />
         <item itemvalue="Application.Dictionary" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.GUI (4)" />
       </list>
     </recent_temporary>
   </component>

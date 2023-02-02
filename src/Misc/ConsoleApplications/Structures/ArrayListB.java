@@ -81,6 +81,13 @@ public class ArrayListB<T> {
     }
 
     /**
+     * Gets the current size of this list.
+     *
+     * @return size of this list
+     */
+    public int size() {return size;}
+
+    /**
      * Gets a string representation of this list, and its current elements.
      * this string comes in the form "[..., ..., ...]"
      *
