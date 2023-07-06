@@ -64,14 +64,12 @@ public class StackB<T> {
     }
 
     public static void main(String[] args) {
-+
-
-        StackB<Integer> stack = new StackB<>();
+        StackB<Integer> stack_ = new StackB<>();
         for (int i = 0; i < 10; i++)
-            stack.push(i);
-        System.out.println("peeked element: " + stack.peek());
-        int p = (int) stack.pop();
+            stack_.push(i);
+        System.out.println("peeked element: " + stack_.peek());
+        int p = (int) stack_.pop();
         System.out.println("popped element: " + p);
-        System.out.println(stack);
+        System.out.println(stack_);
     }
 }

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff55da02-107c-49dc-a8c1-8ed0eaec6e33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mrpug.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mrpug.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/ArrayListB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/ArrayListB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Structures/ArrayListB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Structures/ArrayListB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/PermutationMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/PermutationMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/StackB$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/StackB$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/StackB$B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/StackB$C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/StackB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Misc/ConsoleApplications/Structures/StackB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/PermutationMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Structures/StackB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/ConsoleApplications/Structures/StackB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
@@ -55,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/SpinLine/SpinLine.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/TowerDefense/E.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/TowerDefense/test.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/CustomClasses/Uno/Precedence.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -294,13 +302,13 @@
       <recent name="Misc.CustomClasses.Cipher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackB (1)">
-    <configuration name="ArrayListB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.ArrayListB" />
+  <component name="RunManager" selected="Application.CellGame (1)">
+    <configuration name="CellGame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.CellGame.CellGame" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.CellGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.Dictionary" />
+    <configuration name="CellGame (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.CellGame.CellGame" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.CellGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.LinkedListB" />
+    <configuration name="CellGame (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.CellGame.CellGame" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.CellGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.StackB" />
+    <configuration name="CellGame (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.CellGame.CellGame" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.CellGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConsoleApplications.Structures.StackB" />
+    <configuration name="CellGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CustomClasses.CellGame.CellGame" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.ConsoleApplications.Structures.*" />
+          <option name="PATTERN" value="Misc.CustomClasses.CellGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,19 +369,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListB" />
-      <item itemvalue="Application.Dictionary" />
-      <item itemvalue="Application.LinkedListB" />
-      <item itemvalue="Application.StackB" />
-      <item itemvalue="Application.StackB (1)" />
+      <item itemvalue="Application.CellGame (3)" />
+      <item itemvalue="Application.CellGame (2)" />
+      <item itemvalue="Application.CellGame" />
+      <item itemvalue="Application.CellGame (1)" />
+      <item itemvalue="Application.CellGame (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackB (1)" />
-        <item itemvalue="Application.StackB" />
-        <item itemvalue="Application.ArrayListB" />
-        <item itemvalue="Application.LinkedListB" />
-        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.CellGame (1)" />
+        <item itemvalue="Application.CellGame (3)" />
+        <item itemvalue="Application.CellGame" />
+        <item itemvalue="Application.CellGame (2)" />
+        <item itemvalue="Application.CellGame (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -476,6 +484,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
